@@ -145,7 +145,7 @@ ul#nav li a {
    line-height: 38px;
 	text-decoration: none;
    text-align: left;
-   color: #58687A;
+   color: #8093a7;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -164,7 +164,7 @@ ul#nav li.current a { color: #fff; }
 
 #hero {
    padding-top: 66px;
-   background: #999 url(img/hero-bg.png);
+   background: #23292f url(img/grey.png);
    overflow: hidden;
 }
 
@@ -174,7 +174,7 @@ ul#nav li.current a { color: #fff; }
 (min-resolution: 192dpi) {
 
 	#hero { 
-		background: #23292f url(img/hero-bg_@2X.png); 
+		background: #23292f url(img/grey_@2X.png); 
 		background-size: 200px 200px;
 	}
   
@@ -184,20 +184,20 @@ ul#nav li.current a { color: #fff; }
 
 /* Hero Text */
 .hero-text {
-	color: #676e73;
+	color: #666;
    width: 83%;
    text-align: center;
    margin: 54px auto 24px auto;
 }
 .hero-text h1 {
-   font: 40px/1.2em 'montserrat-regular', sans-serif; 
+   font: 40px/1.2em 'opensans-regular', sans-serif; 
    color: #666;
    padding: 0;
    margin: 0;
    text-shadow: 0px 1px 4px rgba(0, 0, 0, .2);
 }
 .hero-text h1 span,
-.hero-text a { color: #11ABB0; }
+.hero-text a { color: #333; }
 .hero-text p {
    font: 16px/30px 'opensans-regular', sans-serif;
    padding: 0;
@@ -746,8 +746,7 @@ footer .footer-logo a {
    margin-left: 3px;
 }
 footer .footer-logo a img {
-   height: 24px;
-   width: 92px;
+
 }
 
 footer .right-cols .columns {

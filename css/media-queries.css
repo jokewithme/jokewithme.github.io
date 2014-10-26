@@ -10,6 +10,9 @@
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
 
+   .langbrief { display: inline; }
+   .langlong { display: none; }
+   
    /* Hero Section
    ------------------------------------------------------------------ */
    .hero-text { width: 82%; }
@@ -29,6 +32,9 @@
 /* screenwidth less than or equal 900px
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
+
+   .langbrief { display: inline; }
+   .langlong { display: none; }
 
 	/* General and Common Styles */
 	.section-head h1 { font: 18px/30px 'montserrat-bold', sans-serif; }
@@ -186,6 +192,10 @@
 
    /* hide social icons */
    .header-social { display: none; }
+
+   .langpipe { display: none; }
+   .langbrief { display: none; }
+   .langlong { display: inline; }
 
 
    /* Header Styles
@@ -371,7 +381,7 @@
 @media only screen and (min-width: 768px) {
    
    #nav-wrap ul#nav { display: block !important; }
-
+   .langlong { display: none; }
 }
 
 
